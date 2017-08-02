@@ -7,10 +7,10 @@
     <groupId>JenkinsTest</groupId>
     <artifactId>JenkinsTest</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <properties>
+    <!--<properties>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <project.build.sourseEncoding>UTF-8</project.build.sourseEncoding>
-    </properties>
+    </properties>-->
 
     <build>
         <plugins>
@@ -21,7 +21,6 @@
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
-                    <outputEncoding>UTF-8</outputEncoding>
                 </configuration>
             </plugin>
             <plugin>
@@ -30,7 +29,7 @@
                 <version>2.20</version>
                 <inherited>true</inherited>
                 <configuration>
-                    <argLine>-Dfile.encoding=UTF-8</argLine>
+                    <!--<argLine>-Dfile.encoding=UTF-8</argLine>-->
                     <suiteXmlFiles>
                         <suiteXmlFile>src/test/resources/suit.xml</suiteXmlFile>
                     </suiteXmlFiles>
