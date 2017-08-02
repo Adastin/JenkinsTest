@@ -8,7 +8,7 @@
     <artifactId>JenkinsTest</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
-        <project.reporting.outputEncoding>cp1251</project.reporting.outputEncoding>
+        <!--<project.reporting.outputEncoding>cp1251</project.reporting.outputEncoding>-->
         <project.build.sourseEncoding>UTF-8</project.build.sourseEncoding>
     </properties>
 
