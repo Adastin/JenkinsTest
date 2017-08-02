@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestTut" verbose="1">
+
+    <test name="Functional Tests" preserve-order="true">
+        <classes>
+            <class name="TestJen">
+                <!--<methods>
+                    <include name="theFirstTest"/>
+                </methods>-->
+            </class>
+
+        </classes>
+    </test>
+</suite>
