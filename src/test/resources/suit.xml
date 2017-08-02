@@ -6,9 +6,9 @@
     <test name="Functional Tests" preserve-order="true">
         <classes>
             <class name="TestJen">
-                <!--<methods>
+                <methods>
                     <include name="theFirstTest"/>
-                </methods>-->
+                </methods>
             </class>
 
         </classes>
