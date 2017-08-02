@@ -7,9 +7,9 @@
     <groupId>JenkinsTest</groupId>
     <artifactId>JenkinsTest</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <properties>
+    <!--<properties>
         <project.build.sourseEncoding>UTF-8</project.build.sourseEncoding>
-    </properties>
+    </properties>-->
 
     <build>
         <plugins>
@@ -32,13 +32,6 @@
                     <suiteXmlFiles>
                         <suiteXmlFile>src/test/resources/suit.xml</suiteXmlFile>
                     </suiteXmlFiles>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-resources-plugin</artifactId>
-                <configuration>
-                    <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
 
