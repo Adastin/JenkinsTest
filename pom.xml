@@ -7,9 +7,10 @@
     <groupId>JenkinsTest</groupId>
     <artifactId>JenkinsTest</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <!--<properties>
+    <properties>
+        <project.reporting.outputEncoding>Cp1251</project.reporting.outputEncoding>
         <project.build.sourseEncoding>UTF-8</project.build.sourseEncoding>
-    </properties>-->
+    </properties>
 
     <build>
         <plugins>
